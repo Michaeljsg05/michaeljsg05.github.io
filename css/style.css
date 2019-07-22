@@ -46,11 +46,15 @@ body, html{
 .section-light{
   background-color:#f4f4f4;
   color:#666;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .section-dark{
-  background-color:#282e34;
+  background-color: #E32326;
   color:#ddd;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .ptext{
@@ -65,7 +69,7 @@ body, html{
 }
 
 .ptext .border{
-  background-color:#111;
+  background-color: #EC2F32;
   color:#fff;
   padding:20px;
 }
