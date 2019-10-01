@@ -1,0 +1,98 @@
+html{
+  height: 100%;
+}
+body{
+  margin: 0;
+  height: 100%;
+  background: linear-gradient(to bottom right, #ff00c8, #00ffb3);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text1{
+  color:white;
+  font-family: ubuntu;
+  padding-top: 20%;
+}
+
+.game1{
+  height: 100px;
+  width: 150px;
+}
+
+.btn
+{
+  outline: none;
+  background-color: rbga("245,245,245,10");
+  border: 1px solid white;
+  border-radius: 15px;
+  height: 50px;
+  width: 135px;
+  font-size: 20px;
+  color: white;
+  font-family: ubuntu;
+  line-height: 15px;
+  transition: 0.6s;
+  overflow: hidden;
+}
+
+.btndiv
+{
+  padding: 15px;
+}
+
+.btn:hover
+{
+  content: '';
+  color: #a8a8a8;
+  background: white;
+  cursor: pointer;
+  border-color: white;
+  border: 3px solid white;
+  font-size: 24px;
+}
+
+.btn:after
+{
+}
+
+.btnLink{
+  font-style: normal;
+  font-feature-settings: normal;
+  text-decoration: none;
+  color: #3b3b3b;
+  font-size: 18px;
+}
+.btn:hover
+{
+  font-size: 10px;
+  color: #a8a8a8;
+}
+
+.btn1{
+  paddint-top: 10px;
+  padding-bottom: 10px;
+  font-size: 5px;
+}
+
+.btn2{
+  padding top: 10px;
+  padding: bottom: 20px;
+}
+.Container{
+  height: 100%;
+}
+
+footer{
+  padding-top: 15%;
+  color: black;
+  font-family: ubuntu;
+}
+
+.back{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
